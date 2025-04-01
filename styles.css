@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(78, 179, 166);
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 450px;
+  width: 450px;
+  gap: 8px;
+  background-color: rgb(0, 0, 0);
+  align-self: center;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+
+.game-piece {
+  background-color: rgb(78, 179, 166);
+  text-align: center;
+  font-size: 7rem;
+  color: rgb(233, 218, 200);
+}
+.game-piece:hover {
+  cursor: pointer;
+}
+
+.reset-btn-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(20, 100px);
+  height: 40px;
+}
+
+.reset-btn {
+  grid-column: 13;
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.reset-btn:hover {
+  cursor: pointer;
+}
+
+.reset-btn:active {
+  border: 2px solid white;
+}
