@@ -1,6 +1,8 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
 body {
   background-color: rgb(78, 179, 166);
-  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -51,4 +53,8 @@ body {
 
 .reset-btn:active {
   border: 2px solid white;
+}
+
+.winner {
+  color: red;
 }

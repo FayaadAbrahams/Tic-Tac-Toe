@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TIC TAC TOE</title>
+    <title>XO</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <div class="game-container">
-      <div class="game-piece piece-a"></div>
-      <div class="game-piece piece-b"></div>
-      <div class="game-piece piece-c"></div>
-      <div class="game-piece piece-d"></div>
-      <div class="game-piece piece-e"></div>
-      <div class="game-piece piece-f"></div>
-      <div class="game-piece piece-g"></div>
-      <div class="game-piece piece-h"></div>
-      <div class="game-piece piece-i"></div>
+      <div class="game-piece 0-0"></div>
+      <div class="game-piece 0-1"></div>
+      <div class="game-piece 0-2"></div>
+      <div class="game-piece 1-0"></div>
+      <div class="game-piece 1-1"></div>
+      <div class="game-piece 1-2"></div>
+      <div class="game-piece 2-0"></div>
+      <div class="game-piece 2-1"></div>
+      <div class="game-piece 2-2"></div>
       <!-- <div class="winning-line"></div> -->
     </div>
+
     <div class="reset-btn-container">
       <button class="reset-btn" onclick="resetGame()">Reset</button>
     </div>
-    <div class="prompt-player-container" style="display: none">
+    <div class="display-case-container"></div>
+    <!-- <div class="prompt-player-container" style="display: none">
       <label>Select player</label>
       <div class="sub-player-container">
         <span>X</span>
@@ -34,6 +36,6 @@
         <span>O</span>
         <input type="checkbox" name="check-o" value="O" />
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
