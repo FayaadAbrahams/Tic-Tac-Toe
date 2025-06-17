@@ -13,9 +13,7 @@ A classic tic-tac-toe game built with vanilla JavaScript, HTML, and CSS. This in
 
 ## 🚀 Demo
 
-![Tic-Tac-Toe Screenshot](screenshot.png)
-
-[Live Demo](your-demo-link-here)
+![Tic-Tac-Toe Screenshot](https://github.com/user-attachments/assets/6c791f7a-92c2-4aa4-acda-61326cdfdcc3)
 
 ## 🛠️ Technologies Used
 
